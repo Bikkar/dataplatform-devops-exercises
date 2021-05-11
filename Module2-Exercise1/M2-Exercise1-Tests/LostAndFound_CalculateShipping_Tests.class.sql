@@ -4,6 +4,13 @@ GO
 CREATE PROCEDURE LostAndFound_CalculateShipping_Tests.[test something]
 AS
 BEGIN
-  EXEC tSQLt.Fail 'TODO';
+
+	DECLARE @ActualCost NUMERIC(10,2);
+  
+	SET @ActualCost = (Select LostAndFound.CalcualteShipping ('Alberta', 'Alberta'));
+
+	EXEC tSQLt.AssertEquals @Expected = 10, @Actual = @ActualCost;
+
+  --EXEC tSQLt.Fail 'TODO';
 END
 GO

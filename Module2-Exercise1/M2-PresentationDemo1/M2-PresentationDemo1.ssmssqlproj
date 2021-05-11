@@ -2,7 +2,20 @@
 <SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="M2-PresentationDemo1">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
-      <Items />
+      <Items>
+        <ConnectionNode Name="vaim1-dbt-66\BikkarJandu:AIMCO\Bikkar.Jandu">
+          <Created>2021-04-28T11:51:19.7466559-06:00</Created>
+          <Type>SQL</Type>
+          <Server>vaim1-dbt-66\BikkarJandu</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>module1demodb-bikkar</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
@@ -25,8 +38,8 @@
           <FullPath>Checkout.schema.sql</FullPath>
         </FileNode>
         <FileNode Name="Checkout_GetDiscounts_Tests.class.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vaim1-dbt-66\BikkarJandu:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vaim1-dbt-66\BikkarJandu</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Checkout_GetDiscounts_Tests.class.sql</FullPath>
         </FileNode>
